@@ -18,7 +18,7 @@
 run("Close All");
 
 // Open original 16bit DAPI image from the Broad data set; convert to 8bit; save as tiff
-open("/Users/simon/Desktop/Week1_22123/Week1_150607_C02_s3_w1E54F0108-F44A-4F6E-9637-6A9DE80F0823.tif");
+open("/Users/simon/Desktop/Week1_150607_C02_s3_w1E54F0108-F44A-4F6E-9637-6A9DE80F0823.tif");
 run("royal"); // LUT used
 
 // Crop bright cell; convert to 8bit; save as tiff
@@ -98,7 +98,7 @@ run("8-bit");
 run("Save", "save=/Users/simon/Desktop/Bright_8bit_darkRange.tif");
 
 // Save original image with ROIs as 8bit tiff file
-open("/Users/simon/Desktop/Week1_22123/Week1_150607_C02_s3_w1E54F0108-F44A-4F6E-9637-6A9DE80F0823.tif");
+open("/Users/simon/Desktop/Week1_150607_C02_s3_w1E54F0108-F44A-4F6E-9637-6A9DE80F0823.tif");
 run("royal"); // LUT used
 run("Duplicate...", "title=Original_8bit_origRange"); // display range from original image
 roiManager("Show All");
