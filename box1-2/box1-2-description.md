@@ -2,9 +2,16 @@
 
 Kota Miura
 
+## Outline
+This workflow package generates a figure using a publicly available image data in Broad Bioimage Benchmark Collection (Caie et. al., 2010; Ljosa et. al., 2012). The figure represents the segmenation of nucleus rim using image intensity treshesholding, to show that double-use of single channel image both for the segmentation and the intensity measurement causes inconsistent results.  
+
+
+- Ljosa, V., K.L. Sokolnicki, and A.E. Carpenter. 2012. Annotated high-throughput microscopy image sets for validation. Nat. Methods. 9:637. doi:10.1038/nmeth.2083.
+- Caie, P.D., R.E. Walls, A. Ingleston-Orme, S. Daya, T. Houslay, R. Eagle, M.E. Roberts, and N.O. Carragher. 2010. High-content phenotypic profiling of drug response signatures across distinct cancer cells. Mol. Cancer Ther. 9:1913–26. doi:10.1158/1535-7163.MCT-09-1148.
+
 ## Instruction
 
-Open the macro in Fiji and run it after adjusting the path to the sample image (line 2).  
+Open the macro `box1-2macro.ijm` in Fiji and run it after adjusting the path to the sample image (line 2).  
 
 ## Resources
 
@@ -24,7 +31,11 @@ Only one software was used for creating this figure.
 - Fiji distribution of ImageJ, acquired from the following download link. OSX, 64-bit version was installed. 
   - <https://imagej.net/Fiji/Downloads>
 
-##### Fiji setup details 
+#### Macro
+
+- `box1-2macro.ijm` : A ImageJ macro for generating a figure. 
+
+#### Fiji setup details 
 
 ```
   java.version: 1.8.0_121
