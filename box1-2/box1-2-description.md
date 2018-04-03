@@ -4,12 +4,16 @@ Kota Miura
 
 ## Instruction
 
-Run the macro on Fiji after adjusting the path to the sample image (). The figure will be regenerated from this source sample image.  
-
+Open the macro in Fiji and run it after adjusting the path to the sample image (line 2).  
 
 ## Resources
 
 ### Image Data
+- Name: Human MCF7 cells – compound-profiling experiment
+- Package: BBBC021_v1_images_Week1_22123.zip
+- File name: Week1_150607_B02_s1_w107447158-AC76-4844-8431-E6A954BD1174.tif
+- URL: <https://data.broadinstitute.org/bbbc/BBBC021>
+
 
 ### Software
 
@@ -18,9 +22,9 @@ Only one software was used for creating this figure.
 #### Fiji
 
 - Fiji distribution of ImageJ, acquired from the following download link. OSX, 64-bit version was installed. 
-  - https://imagej.net/Fiji/Downloads
+  - <https://imagej.net/Fiji/Downloads>
 
-##### setup details 
+##### Fiji setup details 
 
 ```
   java.version: 1.8.0_121
