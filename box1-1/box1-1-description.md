@@ -8,6 +8,10 @@ Kota Miura
 2. Open the script `box1-1script.py` in Fiji and run it after adjusting the path to config.txt (in the same folder) in line 11. This script generates the PSF 3D image. 
 3. Open the macro `box1-1paneling.ijm` in Fiji, and run it with the PSF image generated above as the active window. 
 
+The parameter settings for thiee PSF is as shown below. 
+
+![](GUI_parametersRW.png)
+
 ## Resources
 
 ### Image Data
