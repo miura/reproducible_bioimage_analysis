@@ -140,7 +140,10 @@ enhc meani   3275.3686
 
  */
 
-
+// add scale bar 10 micrometer
+run("Set Scale...", "distance=1 known=0.656 unit=µm");
+makeRectangle(207, 120, 17, 4);
+run("Scale Bar...", "width=10 height=2 font=14 color=White background=None location=[At Selection] bold hide");
 
 
 
