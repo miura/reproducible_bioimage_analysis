@@ -1,4 +1,4 @@
-**Create Figure for box 1-3: Bit Depth Conversion and Normalization**
+**Create Figure 3: Bit Depth Conversion and Normalization**
 
 ImageJ macro to run: *CropEnhanceCompare_v2.ijm*
 
