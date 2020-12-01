@@ -10,3 +10,5 @@ Assumes that all files are stored and saved to the desktop of user "simon" on ma
 
 Also contains the system file *scientifig_v1.svg* for the Fiji plugin *ScientiFig*, 
 used to create the figure in the paper, based on some of the pngs created by the Fiji macro.
+
+The macro *CropConvertEnhance.ijm* is not used for figure creation but for exploring the scaling and conversion behavior of ImageJ/Fiji, not all of which is explained in the ImageJ/Fiji documentation.
