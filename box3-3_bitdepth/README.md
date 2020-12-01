@@ -4,6 +4,8 @@ ImageJ macro to run: *CropEnhanceCompare_v2.ijm*
 
 Image worked on: *Week1_150607_C02_s3_w1E54F0108-F44A-4F6E-9637-6A9DE80F0823.tif* from the Broad Bioimage Benchmark Collection https://data.broadinstitute.org/bbbc/BBBC021/BBBC021_v1_images_Week1_22123.zip
 
+The conversion factor: 0.656 μm/pixel was obtained through personal communication.
+
 Produces series of png and 8-bit tif images
 
 Assumes that all files are stored and saved to the desktop of user "simon" on mac OS
