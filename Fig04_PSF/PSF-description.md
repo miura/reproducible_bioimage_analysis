@@ -1,4 +1,4 @@
-# box1-1: "PSF volume"
+# "PSF volume"
 
 Kota Miura
 
