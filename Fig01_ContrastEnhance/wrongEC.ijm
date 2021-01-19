@@ -33,6 +33,7 @@ selectImage(cropID);
 makeRectangle(0, 124, 40, 60);
 run("Paste");
 
+
 //right nucleus
 selectImage(cropID);
 makeRectangle(40, 0, 40, 60);
@@ -49,12 +50,20 @@ run("Paste");
 //figure plot
 //makeRectangle(40, 120, 1, 64);
 //run("Fill");
+setColor("white");
 makeRectangle(0, 60, 80, 1);
 run("Fill");
 makeRectangle(0, 120, 80, 1);
 run("Fill");
 run("Select None");
 
+// frames for individual nucleus
+selectImage(cropID);
+run("RGB Color")
+setColor("yellow");
+drawRect(0, 124, 40, 60);
+drawRect(40, 124, 40, 60);
+setColor("white");
 //scalebar
 run("Size...", "width=160 height=368 depth=1 constrain average");
 
@@ -64,4 +73,6 @@ ybase = 24;
 drawString("a", xbase, ybase);
 drawString("b", xbase, ybase + 62*2);
 drawString("c", xbase, ybase + 124*2);
+
+
 
