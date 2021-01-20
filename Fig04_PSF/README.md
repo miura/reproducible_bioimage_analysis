@@ -1,12 +1,12 @@
-# "PSF volume"
+# README: Fig 04 "PSF volume"
 
 Kota Miura
 
 ## Instruction
 
 1. Install PSFGenerator (see below for the download URL) in Fiji. 
-2. Open the script `box1-1script.py` in Fiji and run it after adjusting the path to config.txt (in the same folder) in line 11. This script generates the PSF 3D image. 
-3. Open the macro `box1-1paneling.ijm` in Fiji, and run it with the PSF image generated above as the active window. 
+2. Open the script `PSF_script.py` in Fiji and run it after adjusting the path to config.txt (in the same folder) in line 11. This script generates the PSF 3D image. 
+3. Open the macro `PSF_paneling.ijm` in Fiji, and run it with the PSF image generated above as the active window. 
 
 The parameter settings for thiee PSF is as shown below. 
 
@@ -33,9 +33,9 @@ Image data is generated using the script contained in this folder.
 
 #### Script and macro
 
-`box1-1script.py`: this Jython script generates the PSF 3D image. 
+`PSF_script.py`: this Jython script generates the PSF 3D image. 
 
-`box1-1paneling.ijm`: this macro creates the figure using the PSF image genearated by the script above. 
+`PSF_paneling.ijm`: this macro creates the figure using the PSF image genearated by the script above. 
 
 ##### Fiji setup details 
 
